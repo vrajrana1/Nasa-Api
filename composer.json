@@ -1,0 +1,31 @@
+{
+    "name": "admin/nasa_api",
+    "description": "nasa api to fetch data",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "vraj"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require-dev": {
+        "symfony/var-dumper": "6.3.x-dev"
+    },
+    "require": {
+        "guzzlehttp/guzzle": "^7.0"
+     }, 
+     
+     "autoload": {
+        "require": {
+        "guzzlehttp/guzzle": "^7.0"
+        },
+        "files": [
+            "helper/helper.php"
+        ]
+     },
+     "config": {
+
+        "platform-check": false
+    }
+}
